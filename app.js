@@ -106,17 +106,16 @@ restartBtn.addEventListener('click', restart);
 function restart() {
     // using fill method to fill every box of boxes
     // this method will delete any entered value from the box 
-    thenineClickableDivBox.fill(null)
+    thenineClickableDivBox.fill(null);
 
     // and this for Each loop will replace the all the content of the boxes with empty strings
     boxes.forEach(box => {
-        box.innerText = ''
-        box.style.backgroundColor = ''
+        box.innerText = '';
+        box.style.backgroundColor = '';
     })
 
-    pageTitle.innerHTML = 'Tic Tac Toe'
+    pageTitle.innerHTML = 'Tic Tac Toe';
 
     currentPlayer = playerX;
 }
-
-startGame()
+startGame();
