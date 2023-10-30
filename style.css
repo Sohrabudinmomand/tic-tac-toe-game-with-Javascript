@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+:root {
+  --winning-boxes: #02be0f;
+}
+
+h1 {
+  font-size: 54px;
+  text-transform: uppercase;
+}
+
+.container {
+  padding: 40px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#gameboard {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 120px;
+  border: 2px solid black;
+}
+
+
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #333;
+  font-size: 18px;
+  transition: 200ms transform;
+  font-weight: 600;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --winner_boxes: green;
+} */
+/* 
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .players {
+  margin: 10px auto 0 auto;
+  width: 20%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+/* .winnerMAssege-and-players-turn {
+  margin: 10px auto 0 auto;
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+/* #gameBoard { */
+/* height: 100vh; */
+/* width: 100%;
+  max-width: 480px;
+  height: 480px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.boxes {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  border: 3px solid #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 56px;
+  font-weight: 800;
+}
+ */
+
+/* .button-restart {
+  /* margin: 10px auto 0 auto; */
+/* width: 20%; */
+/* height: 100px; */
+/* display: flex; */
+/* flex-direction: row; */
+/* justify-content: space-between; */
+/* align-items: center; */
+/* padding: 10px 25px; */
+/* }  */
